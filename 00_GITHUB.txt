@@ -6,9 +6,21 @@ Username: 	ANTZ411
 Password:	(cap)-------a4--
 
 ---------------------------------------
+Tutorial:
 http://rogerdudler.github.io/git-guide/
+POUWH Repo:
+https://github.com/Antz411/POUWH.git
 ---------------------------------------
 
+To set repo origin:
+$ git remote -v
+$ git remote add origin https://github.com/Antz411/POUWH.git
+
+To set multiple repo's, so when you push to origin, it will push to both repositories:
+git remote set-url --add --push origin git://original/repo.git
+git remote set-url --add --push origin git://another/repo.git
+
+---------------------------------------
 create a new repository:
 $ git init
 
@@ -27,7 +39,7 @@ Make sure you have the master (* master):
 $ git branch
 
 Get the latest updates:
-$ git pull origin master				-> git pull https://github.com/Antz411/POUWH.git master
+$ git pull origin master				-> git pull link_to_repo.git master
 
 Now create a branch of the latest:
 $ git checkout -b new-branch-name			-> git checkout -b POUWH_Branch
