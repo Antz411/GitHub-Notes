@@ -214,7 +214,7 @@ $ git checkout -b new-branch-name			-> git checkout -b POUWH_Branch
 Check that you're now on that branch (* new-branch)
 $ git branch
 
-==============================
+==============================  
 --> Make changes you require!!
 ==============================
 
